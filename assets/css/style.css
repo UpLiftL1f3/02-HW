@@ -1,0 +1,257 @@
+:root {
+  --navColor: #333;
+  --mainBlue: #8fdfff;
+  --bodyHeaders: darkblue;
+  --bodyMainWidth: 70%;
+}
+html {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+/*  Navbar */
+.navbar {
+  height: auto;
+  display: flex;
+  align-items: center;
+  max-height: fit-content;
+  justify-content: space-between;
+  background-color: #333;
+  width: 100%;
+}
+
+.nav-title-container {
+  background-color: var(--mainBlue);
+  text-align: end;
+  width: 20%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  height: auto;
+}
+
+section div h1 {
+  font-size: 180%;
+  height: auto;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  margin-right: 20px;
+  height: auto;
+}
+
+.nav-li {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px 0 10px;
+  /* padding-right: 5%; */
+  grid-row: 1;
+  width: 25%;
+  white-space: nowrap;
+}
+
+.btn-nav {
+  display: flex;
+  align-items: flex-start;
+  font-size: 110%;
+  height: 100%;
+  background-color: #333;
+  border: var(--mainBlue) solid 4px;
+  color: #fff;
+  padding-top: 7%;
+  padding-bottom: 0%;
+  justify-content: baseline;
+}
+
+/* Main image qualities */
+
+.main-img {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  padding-top: 120px;
+  background-image: url(../images/brandon-siu-nI7knd5sQfo-unsplash.jpg);
+  background-size: 100% 300%;
+  background-position: 0px 240px;
+}
+.main-img img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0px -530px;
+}
+
+.img-title {
+  height: auto;
+  width: 100%;
+  background-color: var(--mainBlue);
+  width: fit-content;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+}
+
+/* Main Body Section */
+.main-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+/* Main Section general Elements */
+.body-mainSection-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.title-container {
+  display: flex;
+  border-right: 3px solid var(--bodyHeaders);
+  width: 20%;
+  justify-content: flex-end;
+  justify-content: end;
+}
+.title {
+  color: var(--bodyHeaders);
+  width: 100%;
+  text-align: end;
+  word-spacing: 9999rem;
+  padding-right: 4%;
+}
+
+/* about me section */
+.aboutMe-p-container {
+  margin-left: 2.8%;
+  width: var(--bodyMainWidth);
+}
+.aboutMe-p-1 {
+  text-indent: 30px;
+}
+/* About Me Section END */
+
+/* Work section START */
+.work-body-container {
+  margin-left: 2.8%;
+  display: flex;
+  flex-direction: column;
+  /* border: var(--bodyHeaders) solid 3px; */
+  height: 600px;
+  width: var(--bodyMainWidth);
+}
+.top-square-img {
+  background-image: url(../images/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+  height: 110%;
+  border: solid 3px var(--mainBlue);
+}
+.squares-title-container {
+  position: relative;
+  top: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainBlue);
+  width: fit-content;
+  padding: 3px;
+  padding-right: 10px;
+}
+.ts-title {
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  width: fit-content;
+}
+/* bottom squares */
+.bottom-squares {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  margin-top: 5px;
+}
+.square-title-container {
+  position: relative;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainBlue);
+  width: fit-content;
+  height: fit-content;
+}
+.square-title {
+  padding: 0;
+  margin: 0;
+}
+.bottom-square {
+  display: flex;
+  flex-wrap: wrap;
+  width: 48.7%;
+  height: 45%;
+  border: solid 3px var(--mainBlue);
+  margin: 3px;
+}
+#led-img {
+  background-image: url(../images/tony-reid-PGdMhonLLZk-unsplash.jpg);
+  background-size: cover;
+  background-position-y: 236px;
+}
+#calc-img {
+  background-image: url(../images/charlesdeluvio-GlavtG-umzE-unsplash.jpg);
+  background-size: 100% 200%;
+  background-position-y: 190px;
+}
+#pastel-img {
+  background-image: url(../images/nareeta-martin-pEWtWnDgGLs-unsplash.jpg);
+  background-size: cover;
+}
+#run-img {
+  background-image: url(../images/joe-caione-qO-PIF84Vxg-unsplash.jpg);
+  background-size: cover;
+  background-position-y: 295px;
+}
+/* Work section END */
+
+/* Contact Me section START */
+.contactMe-body-container {
+  margin-left: 2.8%;
+}
+.contactMe-btn-container {
+  display: flex;
+  flex-direction: row;
+  width: var(--bodyMainWidth);
+  align-items: center;
+  margin-left: 2.8%;
+}
+.c-btns {
+  width: 25%;
+  height: fit-content;
+}
+/* Contact Me section END */
+
+/* Resume section START */
+.resume-p-container {
+  margin-left: 2.8%;
+}
+/* Resume section END */
+
+/* Contact Me section Start */
+/*Main body Section END*/
+
+/* Media Queries */
+/* >navbar  */
+@media screen and (max-width: 480px) {
+  .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
