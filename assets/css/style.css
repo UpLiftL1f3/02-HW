@@ -238,8 +238,12 @@ section div h1 {
 /* Contact Me section END */
 
 /* Resume section START */
-.resume-p-container {
+.resume-link-container {
   margin-left: 2.8%;
+  width: var(--bodyMainWidth);
+}
+.resume-link-container button {
+  width: 25%;
 }
 /* Resume section END */
 
