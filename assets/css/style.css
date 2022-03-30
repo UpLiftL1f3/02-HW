@@ -241,6 +241,7 @@ section div h1 {
 .resume-link-container {
   margin-left: 2.8%;
   width: var(--bodyMainWidth);
+  width: var(--bodyMainWidth);
 }
 .resume-link-container button {
   width: 25%;
@@ -257,5 +258,62 @@ section div h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-right: none;
+    border-top: 3px solid var(--bodyHeaders);
+    border-bottom: 1.8px dashed var(--bodyHeaders);
+  }
+  .title {
+    text-align: center;
+  }
+  .body-mainSection-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .work-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+  }
+  .bottom-squares {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .contactMe-body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactMe-btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 2%;
+  }
+  .c-btns {
+    width: 100%;
+  }
+  .resume-link-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .resume-link-container button {
+    text-align: center;
   }
 }
