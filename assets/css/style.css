@@ -168,6 +168,13 @@ section div h1 {
   height: fit-content;
   width: fit-content;
 }
+#project-1-section {
+  margin: 0 auto;
+  padding-right: 55px;
+  margin-bottom: 2%;
+  height: 25vh;
+  width: 99%;
+}
 /* bottom squares */
 .bottom-squares {
   display: flex;
@@ -265,6 +272,10 @@ section div h1 {
   .main-body {
     display: flex;
     flex-direction: column;
+  }
+  #project-1-section {
+    margin-bottom: 5%;
+    padding-right: 0%;
   }
   .title-container {
     display: flex;
